@@ -23,7 +23,6 @@ if __name__ == "__main__":
     if not bool(city.strip()):
         city = "London"
         
-
     weather_data = get_current_weather(city)
 
     print("\n")
